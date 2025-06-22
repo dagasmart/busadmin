@@ -1,0 +1,8 @@
+<?php
+/*   __________________________________________________
+    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.16  |
+    |              on 2025-06-22 09:38:16              |
+    |    GitHub: https://github.com/pk-fr/yakpro-po    |
+    |__________________________________________________|
+*/
+ namespace DagaSmart\BizAdmin\Support\Cores; use DagaSmart\BizAdmin\Admin; use DagaSmart\BizAdmin\Support\Apis\{DataListApi, DataCreateApi, DataDetailApi, DataDeleteApi, DataUpdateApi, GetSettingsApi, OptionsApi, SaveSettingsApi}; class Api { public static function boot() { goto ilTVI; OWQcH: return; goto rAI7V; rAI7V: teR1M: goto lxnMx; CMZ1B: if (is_dir(self::path())) { goto teR1M; } goto OWQcH; ilTVI: Admin::context()->set("\141\x70\x69\x73", [DataListApi::class, DataCreateApi::class, DataDetailApi::class, DataDeleteApi::class, DataUpdateApi::class, OptionsApi::class, GetSettingsApi::class, SaveSettingsApi::class]); goto CMZ1B; lxnMx: collect(scandir(app_path("\x2f\x41\160\x69\124\145\x6d\160\x6c\141\164\145\x73")))->filter(fn($o0zdn) => !in_array($o0zdn, ["\56", "\56\x2e"]) && str_ends_with($o0zdn, "\x2e\160\x68\x70"))->each(function ($o0zdn) { $LfcNm = "\101\x70\160\134\101\x70\151\124\145\155\160\154\141\x74\x65\x73\134" . str_replace("\56\160\x68\x70", '', $o0zdn); try { goto q2L3B; HzmAg: Admin::context()->add("\x61\x70\151\x73", $LfcNm); goto a7mZR; a7mZR: hozwm: goto okptS; q2L3B: if (!class_exists($LfcNm)) { goto hozwm; } goto HzmAg; okptS: } catch (\Throwable $FXDMR) { } }); goto SOKn_; SOKn_: } public static function path($o0zdn = '') { return app_path("\57\101\160\x69\124\x65\x6d\160\154\x61\164\x65\163") . ($o0zdn ? "\57" . ltrim($o0zdn, "\57") : ''); } }

@@ -1,0 +1,8 @@
+<?php
+/*   __________________________________________________
+    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.16  |
+    |              on 2025-06-22 09:38:13              |
+    |    GitHub: https://github.com/pk-fr/yakpro-po    |
+    |__________________________________________________|
+*/
+ namespace DagaSmart\BizAdmin\Renderers; class GridColumn extends BaseRenderer { public function __construct() { } public function body($IyStN = '') { return $this->set("\x62\157\144\x79", $IyStN); } public function columnClassName($IyStN = '') { return $this->set("\x63\x6f\x6c\165\155\156\x43\x6c\141\x73\163\x4e\141\x6d\145", $IyStN); } public function horizontal($IyStN = '') { return $this->set("\150\x6f\162\x69\x7a\157\156\164\141\154", $IyStN); } public function id($IyStN = '') { return $this->set("\151\144", $IyStN); } public function lg($IyStN = '') { return $this->set("\154\147", $IyStN); } public function md($IyStN = '') { return $this->set("\155\144", $IyStN); } public function mode($IyStN = '') { return $this->set("\x6d\x6f\144\x65", $IyStN); } public function sm($IyStN = '') { return $this->set("\x73\155", $IyStN); } public function style($IyStN = '') { return $this->set("\x73\164\171\154\x65", $IyStN); } public function themeCss($IyStN = '') { return $this->set("\x74\150\145\x6d\145\x43\163\x73", $IyStN); } public function valign($IyStN = '') { return $this->set("\166\x61\154\151\147\156", $IyStN); } public function wrapperCustomStyle($IyStN = '') { return $this->set("\x77\162\141\x70\160\x65\x72\103\165\163\164\157\155\123\x74\x79\x6c\x65", $IyStN); } public function xs($IyStN = '') { return $this->set("\x78\163", $IyStN); } }

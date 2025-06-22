@@ -1,0 +1,8 @@
+<?php
+/*   __________________________________________________
+    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.16  |
+    |              on 2025-06-22 09:38:14              |
+    |    GitHub: https://github.com/pk-fr/yakpro-po    |
+    |__________________________________________________|
+*/
+ namespace DagaSmart\BizAdmin\Renderers; class Log extends BaseRenderer { public function __construct() { $this->set("\164\171\x70\x65", "\x6c\x6f\x67"); } public function autoScroll($IyStN = '') { return $this->set("\141\165\x74\157\123\x63\x72\157\x6c\154", $IyStN); } public function className($IyStN = '') { return $this->set("\143\x6c\141\x73\163\x4e\x61\155\145", $IyStN); } public function disableColor($IyStN = '') { return $this->set("\144\151\x73\141\x62\154\x65\x43\157\154\157\162", $IyStN); } public function encoding($IyStN = '') { return $this->set("\x65\156\x63\157\x64\151\156\x67", $IyStN); } public function height($IyStN = '') { return $this->set("\x68\145\151\147\150\164", $IyStN); } public function maxLength($IyStN = '') { return $this->set("\155\141\x78\114\x65\x6e\147\164\150", $IyStN); } public function operation($IyStN = '') { return $this->set("\157\x70\145\x72\141\x74\x69\157\x6e", $IyStN); } public function placeholder($IyStN = '') { return $this->set("\160\x6c\141\143\145\x68\157\x6c\x64\145\x72", $IyStN); } public function rowHeight($IyStN = '') { return $this->set("\162\157\x77\x48\x65\151\147\150\164", $IyStN); } public function source($IyStN = '') { return $this->set("\x73\x6f\x75\162\x63\x65", $IyStN); } public function type($IyStN = "\x6c\x6f\x67") { return $this->set("\x74\x79\160\145", $IyStN); } }

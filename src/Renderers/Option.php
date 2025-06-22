@@ -1,0 +1,8 @@
+<?php
+/*   __________________________________________________
+    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.16  |
+    |              on 2025-06-22 09:38:14              |
+    |    GitHub: https://github.com/pk-fr/yakpro-po    |
+    |__________________________________________________|
+*/
+ namespace DagaSmart\BizAdmin\Renderers; class Option extends BaseRenderer { public function __construct() { } public function children($IyStN = '') { return $this->set("\143\x68\x69\x6c\x64\162\x65\x6e", $IyStN); } public function defer($IyStN = true) { return $this->set("\x64\x65\x66\x65\x72", $IyStN); } public function deferApi($IyStN = '') { return $this->set("\x64\145\146\145\162\x41\x70\x69", $IyStN); } public function description($IyStN = '') { return $this->set("\x64\x65\163\143\162\151\x70\164\151\157\156", $IyStN); } public function disabled($IyStN = true) { return $this->set("\144\151\163\141\x62\154\145\x64", $IyStN); } public function hidden($IyStN = true) { return $this->set("\150\x69\x64\x64\x65\156", $IyStN); } public function label($IyStN = '') { return $this->set("\x6c\x61\x62\x65\154", $IyStN); } public function loaded($IyStN = true) { return $this->set("\154\157\141\144\145\144", $IyStN); } public function loading($IyStN = true) { return $this->set("\x6c\157\141\x64\x69\x6e\x67", $IyStN); } public function scopeLabel($IyStN = '') { return $this->set("\x73\x63\x6f\x70\x65\114\141\x62\x65\x6c", $IyStN); } public function value($IyStN = '') { return $this->set("\166\x61\x6c\x75\145", $IyStN); } public function visible($IyStN = true) { return $this->set("\x76\151\163\151\x62\x6c\x65", $IyStN); } }

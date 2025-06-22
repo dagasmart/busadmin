@@ -1,0 +1,8 @@
+<?php
+/*   __________________________________________________
+    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.16  |
+    |              on 2025-06-22 09:38:16              |
+    |    GitHub: https://github.com/pk-fr/yakpro-po    |
+    |__________________________________________________|
+*/
+ namespace DagaSmart\BizAdmin\Scopes; use DagaSmart\BizAdmin\Admin; use Illuminate\Support\Facades\Auth; use Illuminate\Support\Facades\Schema; use Illuminate\Database\Eloquent\Model; use Illuminate\Database\Eloquent\Scope; use Illuminate\Database\Eloquent\Builder; class ActiveScope implements Scope { public function apply(Builder $E8J1A, Model $MWice) { goto ixK7Z; d23dO: $nAZR7 = explode("\40", str_ireplace("\x20\x61\x73\x20", "\40", $oGpx3)); goto Azsfa; hEnSf: $RUa8Y = $oGpx3 . "\x2e" . "\x6d\157\144\x75\154\145"; goto PfBtI; aastX: return $E8J1A; goto VW4jj; vo_By: LToUh: goto Ldkkg; AaSCi: $E8J1A->where($RUa8Y, Admin::merId()); goto lRIPh; ibQZI: H433u: goto cgTCH; cgTCH: if (!Schema::hasColumn($oGpx3, "\x6d\145\162\137\x69\x64")) { goto G9RcV; } goto AsdQm; ixK7Z: if (!Admin::currentModule(true)) { goto ES5Fz; } goto fEvXx; PfBtI: $E8J1A->where($RUa8Y, Admin::currentModule(true)); goto ibQZI; lRIPh: G9RcV: goto vo_By; Azsfa: $oGpx3 = end($nAZR7) ?? $oGpx3; goto QBCtC; QBCtC: if (!Schema::hasColumn($oGpx3, "\x6d\157\x64\x75\154\x65")) { goto H433u; } goto hEnSf; Ldkkg: ES5Fz: goto aastX; AsdQm: $RUa8Y = $oGpx3 . "\x2e" . "\x6d\x65\x72\137\x69\x64"; goto AaSCi; fEvXx: $oGpx3 = $MWice->getTable(); goto sXcpe; sXcpe: if (!Schema::hasTable($oGpx3)) { goto LToUh; } goto d23dO; VW4jj: } }
